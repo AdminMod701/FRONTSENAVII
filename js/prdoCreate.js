@@ -22,7 +22,7 @@ function saveProd(){
     let dataToSend = JSON.stringify(prodData);
 
     $.ajax({
-        url:"http://localhost:8081/api/laptop/new",
+        url:"http://140.238.191.252:8080/api/laptop/new",
         data: dataToSend,
         type: "POST",
         contentType:"application/JSON",

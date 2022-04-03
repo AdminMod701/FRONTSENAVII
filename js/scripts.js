@@ -45,7 +45,7 @@ btnLogin.addEventListener("click", () => {
 function getUserData(email, password) {
 
     $.ajax({
-        url: "http://localhost:8081/api/user/" + email + "/" + password,
+        url: "http://140.238.191.252:8080/api/user/" + email + "/" + password,
         type: 'GET',
         contentType: "application/JSON",
         success: function(respuesta) {

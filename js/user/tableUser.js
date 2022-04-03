@@ -16,7 +16,7 @@ function validateAuth(){
 
 function getUsers() {
     $.ajax({
-        url: "http://129.151.118.226:8081/api/user/all",
+        url: "http://140.238.191.252:8080/api/user/all",
         type: 'GET',
         contentType: "application/JSON",
         success: function(respuesta) {
